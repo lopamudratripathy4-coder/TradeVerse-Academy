@@ -1,0 +1,32 @@
+:root {
+  font-family: 'DM Sans', sans-serif;
+  color: #f5f8fc;
+  background: #07111f;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  --bg: #07111f;
+  --bg-soft: #0a1728;
+  --panel: #0d1c2f;
+  --panel-light: #10233a;
+  --line: rgba(172, 198, 225, .13);
+  --text: #f5f8fc;
+  --muted: #a5b4c7;
+  --muted-2: #74869b;
+  --mint: #48e3a3;
+  --blue: #76b4ff;
+  --violet: #b49aff;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; scroll-padding-top: 92px; }
+body { margin: 0; min-width: 320px; background: var(--bg); color: var(--text); }
+body, button, input, select, textarea { font-family: 'DM Sans', sans-serif; }
+a { color: inherit; text-decoration: none; }
+button, input, select, textarea { font: inherit; }
+button, a { -webkit-tap-highlight-color: transparent; }
+button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-visible, summary:focus-visible { outline: 2px solid var(--mint); outline-offset: 4px; }
+::selection { color: #04110c; background: var(--mint); }
